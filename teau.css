@@ -1,9 +1,16 @@
-body { background: 1A2B3C;
+body {
+	background: #0B0B0B;
 	
 }
 	
 #contents {
-
+	background:#444;
+	width:800px;
+	margin-right:auto;
+	margin-left:auto;
+	color: #9c3;
+	font-family: 'Lato', sans-serif;
+	font-size: medium;
 }
 
 h1 { 
@@ -11,11 +18,12 @@ h1 {
 }
 
 A:link {
-
+	text-decoration: none;
+	color:#fc0;
 }
 
 A:hover {
-
+  color: green;
 }
 
 a:visited {
@@ -26,26 +34,36 @@ a:visited {
 
 }
  
- #home, #page2 {
-
+ #home{
+   background: #222;
+	 padding: 10px;
+	 margin-top: 5px;
  }
  
- h3 {
 
+ h3 {
+	color: #ffdead;
+	 margin-top: 20px;
 }
  
  img {
-
+   width:260px;
+	 float:right;
+	 padding: 35px;
 }
 
 img.left {
-
+	float:left;
 }
 
 #footer {
-
+	color: white;
+	width: 144px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 80%;
 }
 
 #clearer {
-
+	clear:both;
 }
