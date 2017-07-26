@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+		<script>
+function myFunction() {
+   var x = document.getElementById("myTopnav");
+   if (x.className === "topnav") {
+       x.className += " responsive";
+   } else {
+       x.className = "topnav";
+   }
+}
+
 <title>TheCoin</title>
 <link rel="stylesheet" type="text/css" href="thecoin.css"/>
 <head/>
@@ -13,4 +23,11 @@
          <a href="#MoreInfo.html">More Info</a>
          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
+		<div id = "home">
+
+				<img src = "http://media.coindesk.com/uploads/2014/04/adjusted-dogecoin2.jpg" alt = "first image"/>  
+
+				<h3>What is a Cryptocurrency?</h3>
+
+				<p>It is a digital currency in which encryption techniques are used to regulate the way units of its currency are created and verify the transfer of funds, operating independently of a central bank using blockchain technology.</p>
     </body>
